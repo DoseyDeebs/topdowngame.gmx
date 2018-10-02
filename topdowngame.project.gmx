@@ -6,7 +6,12 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Player</sprite>
+    <sprite>sprites\spr_Player</sprite>
+    <sprite>sprites\spr_playertest</sprite>
+    <sprite>sprites\spr_Player75</sprite>
+    <sprite>sprites\spr_Player50</sprite>
+    <sprite>sprites\spr_Player25</sprite>
+    <sprite>sprites\spr_Player0</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\sprite3</sprite>
@@ -15,10 +20,17 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Main.gml</script>
+    <script>scripts\TransformScript.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\par_collision</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_thing</object>
+    <object>objects\obj_switcher</object>
+    <object>objects\obj_test</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\testroom</room>
